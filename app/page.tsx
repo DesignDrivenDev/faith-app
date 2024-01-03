@@ -206,7 +206,9 @@ export default function Home() {
                 <h2 className="pb-3 text-2xl font-bold">Reviews</h2>
                 <div className="py-8 bg-sky-100 ">
                   <p className="font-bold text-lg text-center max-w-2xl mx-auto w-11/12">
-                    "{service.testimonial.text}"
+                    {`"`}
+                    {service.testimonial.text}
+                    {`"`}
                   </p>
                   <div className="mx-auto w-fit">
                     <p className="pt-4 font-bold">
@@ -228,7 +230,7 @@ export default function Home() {
                 <p className="font-bold">{service.course.fee.amount}</p>
               </div>
               <div>
-                <h2 className="font-bold">Whts's Included:</h2>
+                <h2 className="font-bold">{`Whts's Included:`}</h2>
                 <div>
                   <ul className="list-inside list-disc">
                     <li>
